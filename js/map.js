@@ -42,7 +42,7 @@ jQuery(function($){
 			  }
 			];	
 			var infowindow = new google.maps.InfoWindow({
-				content:"<div class='map_adresse'><div class='map_address'><span class='address'>Address : </span>118, Street 7, Sector A, Askari 2, Cantt, Sialkot</div> <div class='map_tel'><span class='tel'>Phone : </span>(+92) 333-5336242</div></div>"
+				content:"<div class='map_adresse'><div class='map_address'><span class='address'>Address : </span></div> <div class='map_tel'><span class='tel'>Phone : </span></div></div>"
 			});	
 			
 			map.setOptions({styles: styles});
